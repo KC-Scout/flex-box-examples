@@ -74,10 +74,11 @@ h1 {
     justify-content: space-around;
     flex-direction: column;
     border: 1px solid black;
+    margin-top: 20px;
 }
 .small-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     border: 1px solid black;
     font-size: 20px;
@@ -118,13 +119,109 @@ h1 {
     background-color: lightgreen;
     justify-content: start;
 }
-#box-9 {
+.box-9 {
     background-color: blue;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 100%;
 }
-#box-10 {
+.box-10 {
     background-color: red;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 100%;
+}
+.box-11 {
+    background-color: yellow;
+    width: 20%;
+    height: 100%;
+}
+
+#box-container-6 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: end;
+}
+
+#box-container-7 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: end;
+}
+#box-container-8 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
+    background-color: lightgreen;
+}
+
+#box-container-9 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: space-between;
+}
+#box-container-10 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: space-between;
+}
+
+#box-container-11 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: space-between;
+}
+
+.row-column-container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+}
+.row-column-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+}
+.description {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+}
+.col-box-9 {
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+}
+.col-box-10 {
+    background-color: red;
+    width: 100%;
+    height: 20%;
+}
+.col-box-11 {
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
 }

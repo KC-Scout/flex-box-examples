@@ -33,10 +33,12 @@
      <p>Justify content controls how the items are arranged along the main axis</p>
      <img src="https://www.w3.org/TR/css-flexbox-1/images/flex-direction-terms.svg" alt="">
     
+     <!-- Examples of justify-content: start -->
      <div class="big-container">
          <div class="small-container">
-             <div>Row: justify-content: start</div>
-             <div>Column: justify-content: start</div>
+             <div>Row</div>
+             <div>justify-content: start</div>
+             <div>Column</div>
          </div>
          <div class="justify-container">
             <div id="box-container-4">
@@ -45,11 +47,69 @@
                 
             </div>
             <div id="box-container-5">
-                <div id="box-9"></div>
-                <div id="box-10"><p>justify-content: start</p><p>flex-direction: column;</p></div>
+                <div class="box-9"></div>
+                <div class="box-10"><p>justify-content: start</p><p>flex-direction: column;</p></div>
             </div>
         </div>
      </div>
+
+     <!-- Examples of  justify-content: end-->
+     <div class="big-container">
+        <div class="small-container">
+            <div>Row</div>
+            <div>justify-content: end</div>
+            <div>Column</div>
+        </div>
+        <div class="justify-container">
+           <div id="box-container-6">
+               <div id="box-7"></div>
+               <div id="box-8"><p>justify-content: end</p>flex-direction: row;</p></div>
+               
+           </div>
+           <div id="box-container-7">
+               <div class="box-9"></div>
+               <div class="box-10"><p>justify-content: end</p><p>flex-direction: column;</p></div>
+           </div>
+       </div>
+    </div>
+    <!-- Examples of justify-content: space-between -->
+    <!-- 
+        Items are aligned to the center of the main axis with extra space between. The first and last items are pushed against the very edge of the container 
+    -->
+     <div class="big-container">
+        <div class="small-container">
+            <div>Row</div>
+            <div>justify-content: space-between</div>
+            <div>Column</div>
+        </div>
+        <div class="justify-container">
+           <div id="box-container-8">
+               <div class="row-column-container-1">
+                    <div class="box-9"></div>
+                    <div class="box-11"></div>
+                    <div class="box-10"></div>
+               </div>
+               <div class="description">
+                   <div><p>flex-direction: row;</p><p>justify-content: between;</p></div>
+               </div>               
+           </div>
+           <div id="box-container-9">
+               <div class="row-column-container-2">
+                    <div class="col-box-9"></div>
+                    <div class="col-box-11"></div>
+                    <div class="col-box-10"></div>
+               </div>
+               <div class="description">
+                   <div><p>flex-direction: row;</p><p>justify-content: between;</p></div>
+               </div>               
+           </div>
+
+       </div>
+    </div>
+
+    <!-- Examples of justify-content: space-around -->
+
+
 
 </body>
 </html>
