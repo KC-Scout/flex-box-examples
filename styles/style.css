@@ -265,3 +265,89 @@ h1 {
     height: 100%;
     margin: 1px;
 }
+
+/* Examples of align-items: center */
+.row-column-container-7{
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+    align-items: center;
+}
+.row-column-container-8{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+    align-items: center;
+}
+.ali-box-9 {
+    background-color: blue;
+    width: 20%;
+    height: 30%;
+}
+.ali-box-10 {
+    background-color: red;
+    width: 20%;
+    height: 30%;
+}
+.ali-box-11 {
+    background-color: yellow;
+    width: 20%;
+    height: 30%;
+}
+.ali-col-box-9 {
+    background-color: blue;
+    width: 40%;
+    height: 20%;
+}
+.ali-col-box-10 {
+    background-color: red;
+    width: 40%;
+    height: 20%;
+}
+.ali-col-box-11 {
+    background-color: yellow;
+    width: 40%;
+    height: 20%;
+}
+.row-column-container-9{
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+    align-items: flex-start;
+}
+.row-column-container-10{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+    align-items: flex-start;
+}
+.row-column-container-11{
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+    align-items: flex-end;
+}
+.row-column-container-12{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+    align-items: flex-end;
+}
