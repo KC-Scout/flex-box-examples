@@ -1,3 +1,12 @@
+/* Qiuck examples of basic CSS Flexbox */
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+
+/* Flexbox row */
 #example-container {
     display: flex;
     height: 500px;
@@ -22,7 +31,7 @@
 }
 
 
-
+/* Row-reverse */
 #box-container-2 {
     display: flex;
     height: 500px;
@@ -40,7 +49,7 @@
     height: 50%;
 }
 
-
+/* Column  */
 #box-container-3 {
     display: flex;
     height: 500px;
@@ -56,4 +65,66 @@
     background-color: red;
     width: 50%;
     height: 50%;
+}
+
+
+/* Justify content property */
+.big-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.small-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.justify-container {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid black;
+}
+/* Justify content start */
+#box-container-4 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: start;
+}
+#box-7 {
+    background-color: blue;
+    width: 25%;
+    height: 50%;
+}
+#box-8 {
+    background-color: red;
+    width: 25%;
+    height: 50%;
+}
+
+#box-container-5 {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: start;
+}
+#box-9 {
+    background-color: blue;
+    width: 25%;
+    height: 25%;
+}
+#box-10 {
+    background-color: red;
+    width: 25%;
+    height: 25%;
 }

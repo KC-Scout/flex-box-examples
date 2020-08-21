@@ -10,6 +10,8 @@
     <!-- 
        Adding display: flex to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the flex-direction property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically. 
      -->
+     <h1>Flex-Box Examples</h1>
+     <h2>Basic Examples of Row and Column Using Flex</h2>
      <div id="example-container">
         <div id="box-container">
             <div id="box-1"><p>flex-direction: row</p></div>
@@ -27,6 +29,27 @@
         </div>
      </div>
 
+     <h2>Examples of justify-content property</h2>
+     <p>Justify content controls how the items are arranged along the main axis</p>
+     <img src="https://www.w3.org/TR/css-flexbox-1/images/flex-direction-terms.svg" alt="">
     
+     <div class="big-container">
+         <div class="small-container">
+             <div>Row: justify-content: start</div>
+             <div>Column: justify-content: start</div>
+         </div>
+         <div class="justify-container">
+            <div id="box-container-4">
+                <div id="box-7"></div>
+                <div id="box-8"><p>justify-content: start</p>flex-direction: row;</p></div>
+                
+            </div>
+            <div id="box-container-5">
+                <div id="box-9"></div>
+                <div id="box-10"><p>justify-content: start</p><p>flex-direction: column;</p></div>
+            </div>
+        </div>
+     </div>
+
 </body>
 </html>
