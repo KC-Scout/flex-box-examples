@@ -225,3 +225,43 @@ h1 {
     width: 100%;
     height: 20%;
 }
+
+/* Examples of justify-content: space-around */
+.row-column-container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+}
+.row-column-container-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+}
+
+/* Examples of justify-content: space-evenly */
+.row-column-container-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+}
+.row-column-container-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+}
