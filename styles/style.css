@@ -405,3 +405,47 @@ h1 {
     margin: 1px;
     align-items: stretch;
 }
+/* How does flex-shrink work?: How much of the myself should I shrink?*/
+/* How does flex grow work? How is it used?: How much of the available space should the item take up? */
+/* Flex-basis: is setting how much of the container the item should take up in an ideal world. */ 
+
+/* Examples of flex: property */
+
+/* Order property */
+.ali-box-40 {
+    background-color: blue;
+    order: 2;
+    width: 20%;
+    /* height: 30%; */
+}
+.ali-box-41 {
+    background-color: red;
+    width: 20%;
+    order: 1;
+    /* height: 30%; */
+}
+.ali-box-42 {
+    background-color: yellow;
+    width: 20%;
+    order: 3;
+    /* height: 30%; */
+}
+.ali-col-box-40 {
+    background-color: blue;
+    /* width: 40%; */
+    height: 20%;
+    order: 2;
+}
+.ali-col-box-41 {
+    background-color: red;
+    /* width: 40%; */
+    height: 20%;
+    order: 3;
+}
+.ali-col-box-42 {
+    background-color: yellow;
+    /* width: 40%; */
+    height: 20%;
+    order: 1;
+}
+
