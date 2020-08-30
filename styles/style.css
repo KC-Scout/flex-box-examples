@@ -405,11 +405,6 @@ h1 {
     margin: 1px;
     align-items: stretch;
 }
-/* How does flex-shrink work?: How much of the myself should I shrink?*/
-/* How does flex grow work? How is it used?: How much of the available space should the item take up? */
-/* Flex-basis: is setting how much of the container the item should take up in an ideal world. */ 
-
-/* Examples of flex: property */
 
 /* Order property */
 .ali-box-40 {
@@ -449,3 +444,86 @@ h1 {
     order: 1;
 }
 
+/* How does flex-shrink work?: How much of the myself should I shrink?*/
+/* .ali-box-42 {
+    background-color: blue;
+    width: 300px;
+    height: 40%;
+    flex-shrink: 4;
+}
+.ali-box-43 {
+    background-color: red;
+    width: 300px;
+    height: 40%;
+    flex-shrink: 1;
+}
+
+.ali-col-box-42 {
+    background-color: blue;
+    width: auto;
+    height: 40%;
+}
+.ali-col-box-43 {
+    background-color: red;
+    width: auto;
+    height: 20%;
+} */
+
+
+/* How does flex grow work? How is it used?: How much of the available space should the item take up? */
+/* Flex-basis: is setting how much of the container the item should take up in an ideal world. */ 
+
+/* Examples of flex: property */
+
+.ali-self-box-1 {
+    background-color: blue;
+    width: 20%;
+    height: 40%;
+    align-self: center;
+}
+.ali-self-box-2 {
+    background-color: red;
+    width: 20%;
+    height: 40%;
+    align-self: flex-end;
+}
+.ali-self-box-3 {
+    background-color: yellow;
+    width: 20%;
+    height: 40%;
+    align-self: flex-start;
+}
+.col-ali-self-box-1 {
+    background-color: blue;
+    width: 20%;
+    height: 40%;
+    align-self: flex-end;
+}
+.col-ali-self-box-2 {
+    background-color: red;
+    width: 20%;
+    height: 40%;
+    align-self: center;
+}
+.col-ali-self-box-3 {
+    background-color: yellow;
+    width: 20%;
+    height: 40%;
+    align-self: flex-start;
+}
+.row-column-container-15{
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed red;
+    width: 100%;
+    height: 30%;
+    margin: 1px;
+}
+.row-column-container-16{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed red;
+    width: 30%;
+    height: 100%;
+    margin: 1px;
+}
